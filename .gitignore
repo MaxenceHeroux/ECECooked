@@ -1,0 +1,11 @@
+# ignorer le(s) dossier(s) cmake-build-debug et leur contenu
+cmake-build-debug
+
+# ignorer le(s) dossier(s) cache(s) .idea qui stocke(nt) les parametres de l'IDE
+.idea
+
+# ignorer le(s) fichier(s) version precedente editeur windows
+*.bak
+
+*.html              # ignorer tousles fichiers ayant l'extension .html
+*.pdf               # ignorer tousles fichiers ayant l'extension .pdf

@@ -1,0 +1,22 @@
+#include "_temps.h"
+
+//////////////////////////////////////////////////////////////////////////////
+// Nom du sous-programme : maintenantEnMs()
+// Rôle : Renvoie l'heure actuelle sous forme d'un nombre de type clock_t
+// Voir https://koor.fr/C/ctime/clock_t.wp
+//////////////////////////////////////////////////////////////////////////////
+
+clock_t maintenantEnMs() {
+    return (clock()*1000)/CLOCKS_PER_SEC;
+}
+
+
+//////////////////////////////////////////////////////////////////////////////
+// Nom du sous-programme : maintenantEnSec()
+// Rôle : Renvoie l'heure actuelle sous forme d'un nombre de type long
+// Voir https://koor.fr/C/ctime/clock_t.wp
+//////////////////////////////////////////////////////////////////////////////
+
+long maintenantEnSec() {
+    return clock()/CLOCKS_PER_SEC;
+}
